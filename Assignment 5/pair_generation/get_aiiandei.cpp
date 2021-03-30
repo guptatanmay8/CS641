@@ -110,7 +110,7 @@ int main()
         if(a_e.size()!=0)
         for(int i=0;i<a_e.size();i++)
         {
-            out<<a_e[i].first<<" "<<a_e[i].second<<"\t";
+            out<<a_e[i].second<<" "<<a_e[i].first<<"\t";
         }
         out<<endl;
     }
